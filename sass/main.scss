@@ -1,0 +1,53 @@
+@import "./base/reset";
+
+//variables
+@import "./variables/variables";
+
+// fonts
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Rubik:regular,500,600,700);
+//Base
+@import "./base/main";
+
+//sections
+@import "./home/header";
+@import "./home/section__details";
+@import "./home/section__games";
+@import "./home/section__shot";
+@import "./home/section__icons-games";
+@import "./home/section__project";
+@import "./home/section__email";
+@import "./home/footer";
+
+//about-us
+@import "./about-us/section__git";
+@import "./about-us/section__work-cards";
+@import "./about-us/section__text-game";
+@import "./about-us/section__team-cards";
+
+//portfolio
+@import "./portfolio/section__secrvices";
+@import "./portfolio/section__video";
+@import "./portfolio/section__net-text-img";
+@import "./portfolio/section__slider";
+
+//news
+@import "./news/search/section__news-search";
+@import "./news/article/section__news-article";
+
+//contact-us
+@import "./contact-us/section__contact-us";
+@import "./contact-us/section__form-hello";
+
+// profile
+@import "./profile/section__profile";
+
+//form (contact us)
+@import "./contact-us/form__contact-us";
+
+//content
+@import "./content/content";
+
+//blocks
+@import "./blocks/buttons";
+@import "./blocks/error";

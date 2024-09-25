@@ -1,0 +1,39 @@
+.section__details {
+  position: relative;
+  margin-top: 117px;
+}
+.details__wrapper {
+  display: flex;
+}
+.details__text {
+  margin-bottom: 46px;
+  max-width: 480px;
+}
+
+.details__special-text {
+  margin-bottom: 17px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: $special-color;
+}
+
+.details__special-main {
+  margin-bottom: 26px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.details__special-desc {
+  margin-bottom: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.details__img {
+  position: absolute;
+  top: -200px;
+  right: 0px;
+}

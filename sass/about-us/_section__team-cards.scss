@@ -1,0 +1,38 @@
+.section__team-cards {
+	margin-top: 148px;
+}
+
+.team-cards__title {
+	margin-bottom: 53px;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.8;
+}
+
+.team-cards--wrapper {
+	display: flex;
+	column-gap: 28px;
+}
+
+.team-cards__card {
+	width: 295px;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	padding-left: 80px;
+	padding-right: 80px;
+	border-radius: 20px;
+	background-color: #1c140f;
+}
+
+.team-cards__name {
+	font-size: 19px;
+	font-weight: 600;
+	line-height: 2.02;
+}
+
+.team-cards__job {
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 2.02;
+}

@@ -1,0 +1,61 @@
+.section__work-cards {
+	padding-top: 144px;
+}
+
+.work-cards__title {
+	margin-bottom: 63px;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.8;
+}
+
+.work-cards--wrapper {
+	display: flex;
+	column-gap: 43px;
+}
+
+.work-cards--wrapper-card {
+	width: 378px;
+	padding: 64px 37px;
+	border-radius: 20px;
+	background-color: #1c140f;
+}
+
+.work-cards--wrapper__text {
+	width: 304px;
+}
+
+.work-cards--color {
+	margin-bottom: 19px;
+	padding-top: 7px;
+	padding-bottom: 6px;
+	padding-left: 14px;
+	width: 140px;
+	border-radius: 8px;
+	font-size: 14px;
+	line-height: 1.8;
+}
+
+.work-cards--color--1 {
+	background-color: rgba(176, 0, 220, 0.11);
+}
+
+.work-cards--color--2 {
+	background-color: rgba(220, 66, 0, 0.11);
+}
+
+.work-cards--color--3 {
+	background-color: rgba(0, 220, 141, 0.11);
+}
+
+.work-cards--title {
+	margin-bottom: 16px;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.8;
+}
+
+.work-cards--desc {
+	font-size: 14px;
+	line-height: 1.8;
+}

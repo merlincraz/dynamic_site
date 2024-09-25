@@ -1,0 +1,44 @@
+.section__form-hello {
+	margin-top: 147px;
+}
+
+.form-hello__wrapper {
+	position: relative;
+	padding-top: 54px;
+	padding-bottom: 63px;
+	background-color: #1c140f;
+	&::before {
+		content: "";
+		position: absolute;
+		right: 0;
+		top: 0;
+		background-image: url("./../img/contact-us/form/top.svg");
+		width: 1048px;
+		height: 265px;
+	}
+	&::after {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		background-image: url("./../img/contact-us/form/bottom.svg");
+		width: 567px;
+		height: 256px;
+	}
+}
+
+.form-hello__text {
+	margin-bottom: 79px;
+	text-align: center;
+}
+
+.form-hello__title {
+	font-size: 30px;
+	line-height: 1.89;
+}
+
+.form-hello__desc {
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 1.89;
+}

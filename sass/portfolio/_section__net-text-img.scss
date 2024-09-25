@@ -1,0 +1,41 @@
+.section__net-text-img {
+	margin-top: 190px;
+}
+
+.net-text-img__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.net-text-img__text {
+	width: 536px;
+}
+
+.net-text-img__title {
+	margin-bottom: 43px;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.net-text-img__desc {
+	margin-bottom: 18px;
+	font-size: 17px;
+	&:not(:last-child) {
+		margin-bottom: 46px;
+	}
+}
+
+.net-text-img__card--reverse {
+	margin-bottom: 183px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.net-text-img__card {
+	display: flex;
+	justify-content: space-between;
+	&:first-child {
+		margin-bottom: 189px;
+	}
+}

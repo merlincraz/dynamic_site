@@ -1,0 +1,21 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "sass-compiler",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"scss": "sass --watch sass/main.scss:./css/main.css",
+		"server": "live-server ."
+	},
+	"author": "me",
+	"license": "ISC",
+	"dependencies": {
+		"bootstrap": "^5.3.3",
+		"gsap": "^3.12.5",
+		"live-server": "^1.2.0",
+		"node-sass": "^9.0.0",
+		"sass": "^1.78.0",
+		"scss": "^0.2.4"
+	}
+}

@@ -1,0 +1,35 @@
+.section__text-game {
+	margin-top: 147px;
+}
+
+.text-game--wrapper {
+	padding-top: 113px;
+	background-color: #1c140f;
+}
+
+.text-game--container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.text-game__text {
+	width: 536px;
+}
+
+.text-game__name {
+	margin-bottom: 14px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 2;
+}
+
+.text-game__title {
+	margin-bottom: 14px;
+	font-size: 28px;
+	line-height: 1.57;
+}
+
+.text-game__desr {
+	font-size: 16px;
+	line-height: 2.02;
+}

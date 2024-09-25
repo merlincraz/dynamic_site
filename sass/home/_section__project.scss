@@ -1,0 +1,43 @@
+.section__project {
+  margin-top: 141px;
+}
+
+.project__text {
+  max-width: 497px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 71px;
+  text-align: center;
+  h2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.87;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.87;
+  }
+}
+
+.project__images {
+  margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 33px;
+  div {
+    column-gap: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img {
+    border-radius: 20px;
+  }
+}
+
+.button-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

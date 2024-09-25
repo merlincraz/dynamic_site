@@ -1,0 +1,110 @@
+.form {
+  width: 671px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: -0.3px;
+  color: #4f4f4f;
+}
+
+.label--error {
+  display: block;
+  color: #7b0331;
+}
+
+.input__sayHello {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 322px;
+  height: 56px;
+  border: 0.6px solid #cecece;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.07);
+  font-family: "Rubik", sans-serif;
+  font-weight: 100;
+  color: #fff;
+  border-radius: 9px;
+
+  &::placeholder {
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.3);
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+  }
+
+  &:lang(ru) {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+  }
+}
+
+.input-file {
+  position: relative;
+}
+
+.input-file input[type=file] {
+  position: absolute;
+  z-index: 0;
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+.input__sayHello--error {
+  border-color: red;
+}
+
+.form__label--wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__name {
+  margin-bottom: 20px;
+  display: flex;
+  column-gap: 27px;
+}
+
+.form__name--wrapper {
+  width: 322px;
+  row-gap: 6px;
+}
+
+.form__mail {
+  margin-bottom: 20px;
+  width: 100%;
+
+  row-gap: 3px;
+
+  input {
+    width: auto;
+  }
+}
+
+.form__textarea {
+  margin-bottom: 51px;
+  width: 100%;
+  row-gap: 4px;
+
+  textarea {
+    padding: 15px;
+    height: 232px;
+    border: 0.6px solid #cecece;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 9px;
+    resize: none;
+  }
+}
+
+.form__button {
+  text-align: center;
+}

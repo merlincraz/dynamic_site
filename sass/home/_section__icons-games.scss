@@ -1,0 +1,87 @@
+.section__icons-games {
+	padding-top: 93px;
+	padding-bottom: 92px;
+	margin-top: 157px;
+	position: relative;
+	z-index: 2;
+	background-image: url("./../img/icons/mountins.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background: rgba(0, 0, 0, 0.65);
+		z-index: 1;
+	}
+	&::after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background: rgba(0, 0, 0, 0.54);
+		z-index: 1;
+	}
+}
+
+.icons-games__text {
+	position: relative;
+	z-index: 2;
+	margin-bottom: 99px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 826px;
+	h2 {
+		margin-bottom: 25px;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 1.87;
+	}
+	p {
+		font-size: 16px;
+		line-height: 1.87;
+	}
+}
+
+.icons__games-wrapper {
+	position: relative;
+	z-index: 2;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	column-gap: 100px;
+	row-gap: 62px;
+}
+
+.icons__games-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.icon {
+	margin-bottom: 30px;
+	width: 65px;
+	height: 65px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.icons__games-name {
+	margin-bottom: 24px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.87;
+}

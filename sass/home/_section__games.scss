@@ -1,0 +1,44 @@
+.section__games {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  margin-top: 132px;
+}
+
+.games__text {
+  margin-bottom: 57px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.games__main {
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 1.87;
+}
+
+.games__cards-wrapper {
+  display: flex;
+  column-gap: 47px;
+}
+
+.games__cards {
+  img {
+    margin-bottom: 25px;
+    border-radius: 20px;
+  }
+}
+
+.games__cards-desc {
+  display: flex;
+  column-gap: 9px;
+  align-items: center;
+  justify-content: center;
+  p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.87;
+  }
+  img {
+    margin-bottom: 0;
+  }
+}
